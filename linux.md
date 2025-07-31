@@ -25,7 +25,7 @@ apt update; apt install git
 
 ```bash
 cd autoShutdown
-sudo ./uninstall
+sudo ./uninstall.sh
 ```
 
 - Please make sure you have used sudo.
