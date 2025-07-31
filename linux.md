@@ -12,6 +12,8 @@ First, you need to install the required packages:
 add-apt-repository ppa:git-core/ppa
 apt update; apt install git
 ```
+Second, you paste to your bash, please make sure your file "autoShutdown" in home/your-user (=) ~"
+Enjoy it! =)
 
 ```bash
  git clone https://github.com/RezaxOnes/autoShutdown
