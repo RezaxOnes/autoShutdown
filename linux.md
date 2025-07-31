@@ -16,7 +16,7 @@ apt update; apt install git
 ```bash
  git clone https://github.com/RezaxOnes/autoShutdown
  cd autoShutdown
- sudo chmod +x battery-shutdownAT.sh && sudo chmod +x uninstall.sh
+ sudo chmod +x script-setup.sh && sudo chmod +x uninstall.sh
  sudo ./script-setup.sh
 ```
 - Please make sure you have used sudo.
