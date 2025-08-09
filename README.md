@@ -16,7 +16,7 @@ Tôi nghĩ nó là phiên bản đầu tiên và là phiên bản cuối cùng, 
 - Hiện tại tôi không nhận ủng hộ
 
 
-## Trang web của Rezax Ones
+## Trang web của RezaxOnes
 
 https://rezaxones.com
 
