@@ -9,8 +9,8 @@ First, you need to install the required packages:
 
 ```bash
 # for Debian/Ubuntu
-add-apt-repository ppa:git-core/ppa
-apt update; apt install git
+sudo add-apt-repository ppa:git-core/ppa;
+sudo apt update && sudo apt install git;
 ```
 Second, you paste to your bash, please make sure your file "autoShutdown" in home/your-user (=) ~"
 
@@ -20,7 +20,8 @@ Second, you paste to your bash, please make sure your file "autoShutdown" in hom
  sudo chmod +x script-setup.sh && sudo chmod +x uninstall.sh
  sudo ./script-setup.sh
 ```
-- Please make sure you have used sudo.
+- Once installed, it will automatically monitor your battery and shut down your system when needed.
+- Please make sure you have used sudo
 - Enjoy it! =)
 
 ## To uninstall
@@ -30,4 +31,4 @@ cd autoShutdown
 sudo ./uninstall.sh
 ```
 
-- Please make sure you have used sudo.
+- Remember, you need to use sudo 
