@@ -14,7 +14,7 @@ echo -e "${Green}[-] Copy script battery-shutdownAT.sh => /usr/local/bin/${RESET
 sudo cp "/home/$user_m/autoShutdown/battery-shutdownAT.sh" /usr/local/bin/
 sudo chmod +x /usr/local/bin/battery-shutdownAT.sh
 
-echo -e "${Green}[-]Copy check-battery.service va check-battery.timer => /etc/systemd/system/${RESET}"
+echo -e "${Green}[-] Copy check-battery.service va check-battery.timer => /etc/systemd/system/${RESET}"
 sudo cp "/home/$user_m/autoShutdown/check-battery.service" /etc/systemd/system/
 sudo cp "/home/$user_m/autoShutdown/check-battery.timer" /etc/systemd/system/
 
@@ -30,6 +30,6 @@ sudo chown "$user_m:$user_m" /var/log/battery-command.log
 echo "---------Battery Logs Entries(auto shutdown)--------" | sudo tee -a /var/log/battery-command.log > /dev/null
 
 #Da Cai Dat Thanh Cong
-echo -e "${Green}[-]Da Cai Dat Thanh Cong![-]${RESET}"
+echo -e "${Green}[-] Da Cai Dat Thanh Cong! [-]${RESET}"
 
 
