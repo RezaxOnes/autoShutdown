@@ -9,8 +9,8 @@ First, you need to install the required packages:
 
 ```bash
 # for Debian/Ubuntu
-sudo add-apt-repository ppa:git-core/ppa;
-sudo apt update && sudo apt install git;
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update && sudo apt install git
 ```
 Second, you paste to your bash, please make sure your file "autoShutdown" in home/your-user (=) ~"
 
