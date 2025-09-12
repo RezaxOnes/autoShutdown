@@ -1,6 +1,6 @@
 **This github repository "https://github.com/RezaxOnes/autoShutdown" is official by Rezaxones Limited. Additionly, all is fake.**
 
-# autoShutdown 1.1.0
+# autoShutdown 1.2.0
 
 - Nó sẽ làm được gì?
 1. Nó mô phỏng theo cơ chế hibernate và shutdown của windows
