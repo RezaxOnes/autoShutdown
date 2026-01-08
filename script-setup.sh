@@ -29,6 +29,7 @@ echo -e "${Green}[-] Dang cap quyen can thiet cho /var/log/${RESET}"
 sudo chmod 644 /var/log/battery-command.log
 sudo chown "$user_m:$user_m" /var/log/battery-command.log
 echo "---------Battery Logs Entries(auto shutdown)--------" | sudo tee -a /var/log/battery-command.log > /dev/null
+echo -e "${Green}[-] Vui long chay: 'sudo systemctl restart check-battery.service && sudo systemctl restart check-battery.timer' neu ban nghi ngo script khong hoat dong!${RESET}"
 
 #Da Cai Dat Thanh Cong
 echo -e "${Green}[-] Da Cai Dat Thanh Cong! [-]${RESET}"
