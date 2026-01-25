@@ -4,6 +4,7 @@ Green="\033[1;32m"
 Red="\033[1;31m"
 RESET="\033[0m"
 echo "Vui Long Nhap Ten User (Kiem tra o \"ls /home\")"
+echo "Ban co the thoat script bang cach go 'quit' hoac 'q' hay dung 'exit' "
 read -p ">> " user_m
 
 set -Eeuo pipefail
